@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title> Login Webpage</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Luxurious+Roman&family=Montserrat:wght@300;400;500;600;700&family=Mooli&family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		h1
+		{
+			font-size: 25px;
+		}
+		*
+       {
+       	font-family: 'Montserrat', sans-serif;
+       	font-size: small;
+       }
+		.mdiv
+		{
+			height: 100vh;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-image: url(blue.jpg);
+			background-size: cover;
+		}
+		.div1
+	    {
+	    	height: 620px;
+	    	width: 370px;
+	    	background-color: white;
+	    	border-radius: 7px;
+	    	margin-top: 45px;
+	    	margin-left: 600px;
+            text-align: center;
+	    }
+	    .mdiv .div1 .label1
+	    {
+	    	text-align: left;
+	    }
+	    .inp
+	    {
+	    	border: none;
+	    	border-bottom: 2px solid lightgrey;
+	    	height: 40px;
+	    	width: 300px;
+	    	
+	    }
+	    .signup
+        {
+            
+        }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+        .a2
+        {
+           font-weight: 500;  
+        }
+        input[type="button"]
+        {
+				border: none;
+				box-sizing: border-box;
+				 background-image: linear-gradient(to right,#CCF5FF,#B3F0FF,#99EBFF,#80E5FF,#66E0FF,#4DDBFF,#33D6FF,#19D1FF,#00CCFF);
+				border-radius: 30px;
+				color: white;
+				height: 40px;
+				width: 300px;
+				font-weight: bolder;
+        }
+        input[type="button"]:hover
+        {
+				background-color:blue;
+				cursor: pointer;
+        }
+        input[type="button"]:active
+        {
+				background-color:blue;
+	
+        }
+        .logo
+        {
+            display: flex;
+    				justify-content: center;
+    				align-items: center;
+        }
+        img
+        {
+        	height: 43px;
+					width: 43px;
+					border-radius: 5px;
+					background-size: cover;
+					transition-duration: 1s;
+        }
+         img:hover
+        {
+        	height: 40px;
+					width: 40px;
+					border-radius: 5px;
+					background-size: cover;
+        }
+        .image1
+        {
+        	margin-right:10px;
+        }
+        .image2
+        {
+        	margin-left:10px;
+        }
+        i{
+        	opacity: 0.5;
+        }
+        span .a2{
+            margin-left: 200px;
+            opacity: 0.7;
+        }
+         span .a2:hover{
+            opacity: 1;
+        }
+        .label1
+        {
+        	margin-right: 200px;
+        }
+
+	</style>
+</head>
+<body>
+     <div class="mdiv">
+     	<div class="div1">
+     		<br>
+     		<h1>Login</h1><br>
+     		<form>
+     			<label class="label1">Username</label><br>
+     			<i class="fa-regular fa-user"></i>
+     			<input class="inp" type="text" name="Username" placeholder="Type your username"><br><br>
+     			<label class="label1">Password</label><br>
+     			<i class="fa-solid fa-lock"></i>
+     			<input class="inp" type="Password" name="Username" placeholder="Type your password"> <br>
+     			<span><a class="a2" href="#">Forgot password?</a></span><br><br>
+     			<input type="button" name="Login" value="LOGIN"><br><br>
+     			<div class="signup">
+     				<p>Or Sign Up Using</p>
+     			    <br>
+     			    <div class="logo">
+     			    	  <img class="image1" src="Facebook-logo.png">
+     			    	  <img src="twitter1.png">
+     			    	  <img class="image2" src="google-logo.png">
+     			    </div><br><br><br><br><br><br><br>
+     			    <p>Or Sign Up Using</p>
+     			    <a class="a2" href="#">SIGN UP</a>
+     			</div>
+     	    </form>
+     	</div>
+     		
+     </div>
+</body>
+</html>
